@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" parallel="false">
+  <test name="Regression Test">
+  
+  <groups>		
+   <run>		
+    <include name="regression" />		
+   </run>		
+  </groups>
+  
+    <classes>
+      <class name="mavenTest.firstTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

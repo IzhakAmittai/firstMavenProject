@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sanity Suite]">
+  <test thread-count="5" verbose="0" name="Sanity Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="mavenTest.firstTest">
+        <methods>
+          <include name="confirmButton"/>
+          <include name="confirmHeader"/>
+        </methods>
+      </class> <!-- mavenTest.firstTest -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->

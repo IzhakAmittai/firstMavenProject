@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.635 s <<< FAILURE! - in TestSuite
+mavenTest.firstTest.confirmHeader  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.NullPointerException
+	at mavenTest.firstTest.confirmHeader(firstTest.java:39)
+
+mavenTest.firstTest.confirmButton  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at mavenTest.firstTest.confirmButton(firstTest.java:54)
+

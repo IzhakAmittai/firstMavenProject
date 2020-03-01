@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="12021" started-at="2020-03-01T01:17:01 IST" finished-at="2020-03-01T01:17:13 IST">
+    <groups>
+      <group name="regression">
+        <method signature="firstTest.subscribeText()[pri:3, instance:mavenTest.firstTest@7085bdee]" name="subscribeText" class="mavenTest.firstTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="firstTest.confirmButton()[pri:2, instance:mavenTest.firstTest@7085bdee]" name="confirmButton" class="mavenTest.firstTest"/>
+        <method signature="firstTest.confirmHeader()[pri:1, instance:mavenTest.firstTest@7085bdee]" name="confirmHeader" class="mavenTest.firstTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="12021" started-at="2020-03-01T01:17:01 IST" finished-at="2020-03-01T01:17:13 IST">
+      <class name="mavenTest.firstTest">
+        <test-method status="PASS" signature="chromeInit()[pri:0, instance:mavenTest.firstTest@7085bdee]" name="chromeInit" is-config="true" duration-ms="11760" started-at="2020-03-01T01:17:01 IST" finished-at="2020-03-01T01:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeInit -->
+        <test-method status="PASS" signature="confirmHeader()[pri:1, instance:mavenTest.firstTest@7085bdee]" name="confirmHeader" duration-ms="39" started-at="2020-03-01T01:17:13 IST" finished-at="2020-03-01T01:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmHeader -->
+        <test-method status="PASS" signature="confirmButton()[pri:2, instance:mavenTest.firstTest@7085bdee]" name="confirmButton" duration-ms="22" started-at="2020-03-01T01:17:13 IST" finished-at="2020-03-01T01:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmButton -->
+        <test-method status="PASS" signature="subscribeText()[pri:3, instance:mavenTest.firstTest@7085bdee]" name="subscribeText" duration-ms="82" started-at="2020-03-01T01:17:13 IST" finished-at="2020-03-01T01:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeText -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:mavenTest.firstTest@7085bdee]" name="closeChrome" is-config="true" duration-ms="77" started-at="2020-03-01T01:17:13 IST" finished-at="2020-03-01T01:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- mavenTest.firstTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
